@@ -24,10 +24,8 @@ int main() {
     char nomeCidade2[TAM_NOME];
     int populacao2, pontosTuristicos2;
     float area2, pib2;
-
     char input[TAM_INPUT];
 
-    // -------------------------
     // Entrada da Carta 1
     printf("Cadastro da Carta 1:\n");
 
@@ -59,7 +57,6 @@ int main() {
     fgets(input, TAM_INPUT, stdin);
     pontosTuristicos1 = atoi(input);
 
-    // -------------------------
     // Entrada da Carta 2
     printf("\nCadastro da Carta 2:\n");
 
@@ -91,7 +88,6 @@ int main() {
     fgets(input, TAM_INPUT, stdin);
     pontosTuristicos2 = atoi(input);
 
-    // -------------------------
     // Impressão das cartas
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
